@@ -1,4 +1,6 @@
 # Example of a multi-threaded application using daemon threads
+# line 11 - daemon =True. Main thraed will not wait for threads to complete.
+
 from training import WEBSITES, visit_website
 import threading
 
